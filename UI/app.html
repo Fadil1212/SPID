@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Person Classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dropzone.min.css">
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="stl.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css">
+
+    <script>
+        window.onload = function() {
+          var homeSection = document.getElementById("home");
+          var yOffset = homeSection.getBoundingClientRect().top + window.pageYOffset;
+          window.scrollTo({top: yOffset, behavior: 'smooth'});
+        };
+      </script>
+    
+
+</head>
+
+<body >
+ 
+    <header class="header">
+        
+        <nav class="navbar">
+      
+
+        <a class="btn btn1" href="#home">HOME</a>
+		<a class="btn btn2" href="#about">ABOUT</a>
+	    <a class="btn btn3" href="#pro-ject">PROJECT</a>
+        <a class="btn btn4" href="#contact">CONTACT</a>
+    </nav>
+</header>
+
+
+        <section id="home">
+            <div class="home-content">
+                <div class="line-break">
+            <br><br><br><br><br><br>
+           
+            <h1>Sports Person Image Detector</h1>
+            <h1>(SPID)</h1>
+            <h3> <span class="multiple-text"></span></h3>
+            <br><br>
+        </div>
+         </section>
+
+            <section id="about">
+                 <h2 style="text-align:center ">Sports Celebrity Image Classification Project</h2><br>
+                
+                 <h5>Project Objective:</h5><br>
+                 
+                <div class="proj_desc">
+                    The Sports Celebrity Image Classification project aims to accurately classify images of famous sports personalities from around the world. The project focuses on identifying the following sports celebrities: Cristiano Ronaldo, Kobe Bryant, Lionel Messi, Maria Sharapova, Roger Federer, Serena Williams, and Virat Kohli.
+                </div><br><br>
+                
+                <h5> Project Details:</h5><br>
+                
+
+                    <div class="proj_desc">
+                    In this project, an SVM (Support Vector Machine) classifier was utilized to train the model. The SVM algorithm is well-known for its effectiveness in image classification tasks. Through extensive training and testing, the model achieved an impressive accuracy of 82%.
+                </div> 
+                <br><br>
+            
+                <h5> Dataset Information:</h5><br>
+                <div class="proj_desc">
+                    The dataset used in this project consists of images categorized into seven classes, each representing one of the featured sports celebrities. The dataset contains a diverse collection of over 3000 images, ensuring a robust and comprehensive training experience.
+                </div> 
+                
+             </section>
+  
+       
+
+
+
+
+
+     <section id="pro-ject">
+           
+     <div class="container">
+        <div class="row">
+        <div class="col card-wrapper" data-player="cristiano_ronaldo">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/cristiano.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h6 class="text-uppercase card-title">Cristiano Ronaldo</h6>
+                        </p>
+                    </div>
+                </div>
+            </div>   
+            <div class="col card-wrapper" data-player="kobe_bryant">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/kobe.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h6 class="text-uppercase card-title">Kobe Bryant</h6>
+                        </p>
+                    </div>
+                </div>
+            </div>    
+            <div class="col card-wrapper" data-player="lionel_messi">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/messi.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h6 class="text-uppercase card-title">Lionel Messi</h6>
+                        </p>
+                    </div>
+                </div>
+            </div>              
+            <div class="col card-wrapper" data-player="maria_sharapova">
+                    <div class="card border-0">
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/sharapova.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center mt-4">
+                            <h6 class="text-uppercase card-title" >Maria Sarapova</h6>
+                            </p>
+                        </div>
+                    </div>
+            </div>            
+            <div class="col card-wrapper" data-player="roger_federer">
+                    <div class="card border-0">
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/federer.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center mt-4">
+                            <h6 class="text-uppercase card-title">Roger Federer</h6>
+                            </p>
+                        </div>
+                    </div>
+            </div>          
+
+            <div class="col card-wrapper" data-player="serena_williams">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/serena.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h6 class="text-uppercase card-title">Serena Williams</h6>
+                        </p>
+                    </div>
+                </div>
+            </div>      
+
+            <div class="col card-wrapper" data-player="virat_kohli">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/virat.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h6 class="text-uppercase card-title">Virat Kohli</h6>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-12 mx-auto">
+                        <form action="/file-upload" class="dropzone" id="dropzone">
+                            <div class="dz-message needsclick">
+                                <img src="./images/upload.png" width="50vw" height="50vw"><br>
+                                <span class="note needsclick">Drop files here or click to upload</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3 mx-auto">
+                        <button id="submitBtn" type="button" class="btn btn-success">Classify</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-8 error" id="error" >
+                <p>Can't classify image. Classifier was not able to detect face and two eyes properly</p>    
+            </div>
+
+            <div class="col-sm-4" id="resultHolder">
+            </div>
+            <div class="col-sm-4" id="divClassTable">
+                <table id="classTable">
+                        <tr>
+                            <th>Player</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Cristiano Rolando</td>
+                            <td id="score_cristiano_ronaldo"></td>
+                        </tr> <tr>
+                            <td>Kobe Bryant</td>
+                            <td id="score_kobe_bryant"></td>
+                        </tr>
+                        <tr>
+                            <td>Leonel Messi</td>
+                            <td id="score_lionel_messi"></td>
+                        </tr>
+                        <tr>
+                            <td>Maria Sharapova</td>
+                            <td id="score_maria_sharapova"></td>
+                        </tr>
+                        <tr>
+                            <td>Rodger Federer</td>
+                            <td id="score_roger_federer"></td>
+                        </tr>
+                        <tr>
+                            <td>Serena Williams</td>
+                            <td id="score_serena_williams"></td>
+                        </tr>
+                        <tr>
+                            <td>Virat Kohli</td>
+                            <td id="score_virat_kohli"></td>
+                        </tr>
+                </table>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <section id="contact">
+        <div class="Contact">
+        
+            <h1>Contact Me</h1>
+          </div>
+            <div class="cont">
+              <div class="conta-box">
+                <div class="left"></div>
+                <div class="right">
+                  <p>Always thriving to collaborate, work in a team and create a positive impact.</p>
+                  <p>Phone: +91 8114809673<br> Email: <a href="mailto:fadilmohammed208@gmail.com">fadilmohammed208@gmail.com</a> </p>
+                  
+                  <div class="social-media">
+        
+                    <a href="https://github.com/Fadil1212" style="--i:7;"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/fadil-mohammed-347a0a231/" style="--i:8;"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://twitter.com/Fadiga_1212" style="--i:9;"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://wa.link/kz9cht " style="--i:11;"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+                  <input type="text" class="field" placeholder="Your Name">
+                  <input type="text" class="field" placeholder="Your Email">
+                  <input type="text" class="field" placeholder="Phone">
+                  <textarea placeholder="Message" class="field"></textarea>
+                  <button class="btno">Send</button>
+                  
+                </div>
+              </div>
+            </div>
+            
+
+            
+            
+           
+      
+      </section>
+      <section>
+        <footer>
+          <div class="row">
+            <div class="col-lg-12">
+                <div class="footer-area text-center">
+
+                   
+                    <p class="description mt--30">© 2023. All rights reserved by Fadil Mohammed</p>
+                </div>
+            </div>
+        </div>
+        </footer>
+      </section>
+    
+    
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="./dropzone.min.js"></script>
+<script src="./app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/boxicons.min.js"></script>
+
+</section>
+
+</body>
+
+</html>

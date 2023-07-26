@@ -1,0 +1,238 @@
+.card-wrapper {
+    margin: 5% 0;
+    background-color: #7368b6;
+  }
+  
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 10vw; /* note i used vw not px for better responsive */
+  height: 10vw;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+  background-color: #655ba7;
+}
+
+.dropzone {
+  border-style: dashed;
+  color: rgb(212, 112, 12);
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #dee7e7fe;
+  background-size: cover;
+  position: relative;
+  border-color: #1465f1;
+  border-width: 2.5px;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color:#8275d5
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #8a4444;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #413495;
+  color: white;
+}
+
+.line-break {
+  white-space: pre-line;
+}
+
+
+.header {
+  position : fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content : space-between;
+  align-items : center;
+  z-index: 100;
+  }
+
+
+
+
+   
+    
+    .navbar a:hover,
+    .navbar a.active{
+    color: #0ef;
+    } 
+
+   
+    a.btn {
+      letter-spacing: 2px;
+      display: block;
+      width: 200px;
+      border: 1px solid green;
+      text-decoration: none;
+      padding: 5px 20px 5px 10px;
+      margin-right: 30px;
+      color: black;
+      position: relative;
+      overflow: hidden;
+      line-height: 35px;
+      transition: all 1s;
+    }
+    a.btn:hover {
+      padding-left: 20px;
+      width: 190px;
+      border-color: black;
+      font-size: 1.3em;
+      letter-spacing: 4px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    
+    }
+    a.btn::before {
+      content: "";
+      width:10px; height: 100px;
+      position: absolute;
+      display: block;
+      top: 0px;
+      left:-10px;
+      transition: left 0.5s;
+    }
+    a.btn:hover::before { 
+      left: 0px; 
+    }
+    
+    a.btn1 { background-color: rgba(234, 210, 242, 0.2); }
+    a.btn1:hover { background-color: rgba(190,6,255,0.5); text-shadow: 0px 3px 2px rgba(0,0,0,0.3); }
+    a.btn1::before { background-color: rgb(231, 208, 240); }
+    
+    a.btn2 { background-color: rgba(235, 214, 183, 0.2); }
+    a.btn2:hover { background-color: rgba(230, 214, 189, 0.5); text-shadow: 0px 3px 2px rgba(0,0,0,0.3); }
+    a.btn2::before { background-color: rgba(255,157,6,1); }
+    
+    a.btn3 { background-color: rgba(194, 232, 240, 0.2); }
+    a.btn3:hover { background-color: rgba(196, 232, 241, 0.5); text-shadow: 0px 3px 2px rgba(0,0,0,0.3); }
+    a.btn3::before { background-color: rgba(6,211,255,1); }
+    
+    a.btn4 { background-color: rgba(178, 232, 176, 0.2); }
+    a.btn4:hover { background-color: rgba(182, 242, 180, 0.5); text-shadow: 0px 3px 2px rgba(0,0,0,0.3); }
+    a.btn4::before { background-color: rgb(171, 230, 169); }
+
+
+    section{
+        margin-top: 100px;
+    }
+    nav a:nth-of-type(1)  {
+        background-color: rgba(33, 7, 3, 0.37);
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      color: lightgray;
+      padding: 10px;
+      }
+      nav a:nth-of-type(2) {
+        background-color: rgba(33, 7, 3, 0.37);
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      color: lightgray;
+      padding: 10px;
+      }
+      nav a:nth-of-type(3) {
+        background-color: rgba(33, 7, 3, 0.37);
+      box-shadow: 0 0 10px rgba(43, 37, 37, 0.018);
+      color: white;
+      padding: 10px;
+      }
+      nav a:nth-of-type(4) {
+        background-color: rgba(33, 7, 3, 0.37);
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      color: white;
+      padding: 10px;
+      }
+      nav a:nth-of-type(5) {
+        background-color: rgba(33, 7, 3, 0.37);
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      color: white;
+      padding: 10px;
+      }
+
+      navbar{
+
+        display : flex
+      }
+
+      a[id="home"]:target~#home {
+        transform: translate3d(0, 0, 0);
+      }
+      a[id="about"]:target~#about {
+        transform: translate3d(0, -100%, 0);
+      }
+      a[id="pro-ject"]:target~#pro-ject {
+        transform: translate3d(0, -200%, 0);
+      }
+      a[id="services"]:target~#services {
+        transform: translate3d(0, -300%, 0);
+      }
+      a[id="contact"]:target~#contact {
+        transform: translate3d(0, -400%, 0);}
+
+
+      body{
+          background-color: rgb(183, 214, 242);
+        }
+        h1 {
+          font-size: 80px; 
+          color: #171217;
+          text-align: center;
+          text-shadow: 10px 10px 10px rgb(119, 64, 182);
+         font-family: "Lucida Bright", Georgia, serif;
+        } 
+        
+        h5{
+          font-family: "Lucida Bright", Georgia, serif;
+          padding-left: 50px;
+     
+    
+        }
+        html {
+          scroll-behavior: smooth;
+        }
+
+        .proj_desc{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+       display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+      padding-left: 50px;
+      padding-right: 30px;
+        }
+
+      
