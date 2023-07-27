@@ -25,4 +25,8 @@ Technologies used in this project,
 6. Python flask for http server
 7. HTML/CSS/Javascript for UI
 
+Short Video 
+
+
+https://github.com/Fadil1212/SPID/assets/99661887/848eb12f-be51-41fa-b53a-94b925e839c0
 
