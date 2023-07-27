@@ -1,13 +1,14 @@
 ![](ui_snapshot.jpg)
 
 ![image](https://github.com/Fadil1212/SPID/assets/99661887/692aebc1-b35c-4d81-b860-0f04fe077a84)
-In this data science and machine learning project, we classify sports personalities. We restrict classification to only 5 people,
-1) Maria Sharapova
-2) Serena Williams
-3) Virat Kohli
+In this data science and machine learning project, we classify sports personalities. We restrict classification to only 7 people,
+1) Cristiano Rolando
+2) Kobe Bryant
+3) Lionel Messi 
 4) Roger Federer
-5) Lionel Messi
-
+5) Serena Williams
+6) Maria Sharapova
+7) Virat Kohli 
 Here is the folder structure,
 * UI : This contains ui website code 
 * server: Python flask server
