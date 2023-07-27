@@ -24,4 +24,4 @@ Technologies used in this project,
 7. HTML/CSS/Javascript for UI
 
 
-Here is the video playlist for entire project: https://www.youtube.com/playlist?list=PLeo1K3hjS3uvaRHZLl-jLovIjBP14QTXc
+![image](https://github.com/Fadil1212/SPID/assets/99661887/692aebc1-b35c-4d81-b860-0f04fe077a84)
